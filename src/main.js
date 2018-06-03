@@ -25,6 +25,7 @@ function swap(arr, indexA, indexB) {
 function opData() {
   let ul = document.getElementsByClassName('content-list');
   let arr = shuffle(data)
+  console.log(arr)
   arr.forEach((ele, index)=> {
     createList(ele, index, ul[0]);
   })
