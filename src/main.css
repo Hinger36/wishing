@@ -11,7 +11,7 @@
 }
 
 .header {
-  background-color:#fff;
+  background-color :rgba(255, 255, 255, .8);
   position: fixed;
   width: 100%;
   box-shadow: 0 0 5px #333;
@@ -142,7 +142,6 @@
   line-height: 30px;
   border-radius: 3px;
   text-indent: 30px;
-  background-color: rgba(255, 255, 255, .6);
   box-shadow: 0 0 5px #333;
   background: url('../img/搜索.png') 5px  no-repeat;
   background-color: rgba(255, 255, 255, .6);

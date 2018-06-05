@@ -25,7 +25,6 @@ function swap(arr, indexA, indexB) {
 function opData() {
   let ul = document.getElementsByClassName('content-list');
   let arr = shuffle(data)
-  console.log(arr)
   arr.forEach((ele, index)=> {
     createList(ele, index, ul[0]);
   })
@@ -76,7 +75,6 @@ function search() {
     list[0].style.display = 'none';
     list[1].style.display = 'block';
     let word = search.value;
-    console.log(word)
     let result = data.filter( ele => (ele.wish.indexOf(word) !== -1 || ele.date === word ));
     // console.log(result);
     count(result);
